@@ -1,0 +1,9 @@
+{
+  "framework": "angular",
+  "buildCommand": "ng build --configuration=production",
+  "outputDirectory": "dist/src/browser",
+  "functions": {},
+  "routes": [
+    { "src": "/(.*)", "dest": "/" }
+  ]
+}
